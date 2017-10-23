@@ -1,0 +1,97 @@
+.container {
+    max-height: 100%;
+    overflow-y: hidden;
+}
+
+.createMilestone {
+    min-height: 100vh;
+    background-color: #DCDADA;
+    display: flex;
+    flex-flow: column;
+}
+
+.createMilestone .header {
+    flex: 0 1 auto;
+}
+
+.createMilestone .content {
+    flex-grow: 1;
+    flex-basis: 1px;
+    display: flex;
+    flex-flow: column;
+}
+
+.goBack {
+    flex: 0 1 auto;
+}
+
+.pageName {
+    flex: 0 1 auto;
+}
+
+.searchBox {
+    padding-bottom: 1rem;
+    flex: 0 1 auto;
+}
+
+.searchBox input {
+    padding: 0.3rem;
+    font-size: 1.2rem;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+}
+
+.scrollableBox {
+    flex-grow: 1;
+    flex-basis: 1px;
+    overflow-y: scroll;
+}
+
+.createMilestone .content .scrollableBox {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.option {
+    padding-bottom: 1rem;
+}
+
+.option input {
+    font-size: 1.2rem;
+    border: 1px solid #000;
+}
+
+.input1 {
+    width: 90%;
+}
+
+.input2 {
+    font-size: 1.2rem;
+    width: 90%;
+    height: 5rem;
+    resize: none;
+    border: 1px solid #000;
+}
+
+.inputDiv {
+    padding-bottom: 0.2rem;
+}
+
+.input3 {
+    width: 90%;
+}
+
+.input4 {
+    width: 40%;
+}
+
+.saveDiv {
+    text-align: center;
+}
+
+.saveDiv input {
+    padding: 0.4rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: 1px solid #000;
+}

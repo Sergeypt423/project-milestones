@@ -1,0 +1,52 @@
+.item {
+    border: 1px solid #000;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    padding-left: 0.1rem;
+    padding-top: 0.3rem;
+    min-height: 5rem;
+}
+
+.content .item:last-child {
+    margin-bottom: 0;
+}
+
+.item:hover {
+    cursor: pointer;
+}
+
+.image {
+    /* position: absolute; */
+    float: left;
+}
+
+.image span {
+    font-size: 4rem;
+    line-height: 5rem;
+}
+
+.item-right {
+    margin-left: 4.5rem;
+    text-align: left;
+}
+
+.item-right div {
+    padding-bottom: 0.3rem;
+}
+
+.item-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.item-title span {
+    color: #BAB8B8;
+}
+
+.details {
+    font-size: 1rem;
+}
+
+.link {
+    font-size: 1.2rem;
+}

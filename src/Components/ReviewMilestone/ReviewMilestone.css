@@ -1,0 +1,117 @@
+.reviewMilestone {
+    padding: 0 1.5rem;
+    background-color: #DCDADA;
+    height: 100vh;
+}
+
+.inside {
+    text-align: left;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.space {
+    height: 1rem;
+    flex: 0 1 auto;
+}
+
+.close {
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.5rem;
+    flex: 0 1 auto;
+}
+
+.title {
+    padding-bottom: 0.8rem;
+    flex: 0 1 auto;
+    font-size: 1.7rem;
+}
+
+.subtitle {
+    padding-bottom: 0.5rem;
+    flex: 0 1 auto;
+}
+
+.quizarea {
+    flex-grow: 1;
+    flex-basis: 1px;
+}
+
+.question {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-bottom: 0.2rem;
+}
+
+.requirement {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.buttons {
+    height: 7rem;
+    margin-left: 50%;
+}
+
+.round-div {
+    border-radius: 1rem;
+}
+
+.yes,
+.no {
+    position: absolute;
+    background-color: #7F7C7C;
+    padding: 1rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.yes {
+    margin-left: -7.7rem;
+}
+
+.no {
+    margin-left: 0.7rem;
+}
+
+.icon {
+    font-size: 3.5rem;
+}
+
+* {
+    min-height: 0;
+    min-width: 0;
+}
+
+.final-question {
+    padding-top: 1rem;
+    padding-bottom: 1.7rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.select {
+    text-decoration: underline;
+}
+
+.box {
+    padding-bottom: 1rem;
+}
+
+.reason {
+    padding: 0 0.2rem;
+}
+
+.submit {
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.submit input {
+    padding: 0.3rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}

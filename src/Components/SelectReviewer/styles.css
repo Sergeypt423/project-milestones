@@ -1,0 +1,84 @@
+.selectReviewer {
+    background-color: #DCDADA;
+    width: 100vw;
+    height: 0;
+    bottom: 0;
+    position: fixed;
+    will-change: transition;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.selectReviewer-enter {
+    background-color: #DCDADA;
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    position: fixed;
+    will-change: transition;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.fullContainer {
+    height: 100vh;
+    padding: 0 1.5rem;
+}
+
+.innerContainer {
+    text-align: left;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.nameList {
+    flex-grow: 1;
+    flex-basis: 1px;
+}
+
+.closeDiv {
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.5rem;
+    flex: 0 1 auto;
+    padding-bottom: 0.7rem;
+}
+
+.searchReviewerNameDiv {
+    padding-bottom: 1rem;
+}
+
+.inputDivLeft {
+    float: left;
+    width: 70%;
+    overflow: hidden;
+}
+
+.inputDivRight {
+    float: right;
+}
+
+.searchReviewerNameDiv input {
+    font-size: 1.2rem;
+    padding: 0.3rem;
+}
+
+.searchReviewerNameDiv input[type="button"] {
+    color: #fff;
+    background-color: #797777;
+    border: 1px solid #000;
+}
+
+.searchReviewerNameDiv input[type="text"] {
+    border: 1px solid #000;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+}
+
+.giverName {
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}

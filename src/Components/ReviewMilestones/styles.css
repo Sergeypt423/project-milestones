@@ -1,0 +1,33 @@
+.reviewMilestones {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #DCDADA;
+    display: flex;
+    flex-flow: column;
+}
+
+.reviewMilestones .header {
+    flex: 0 1 auto;
+}
+
+.reviewMilestones .content {
+    flex-basis: 1px;
+    flex-grow: 1;
+}
+
+.goBack:hover {
+    cursor: pointer;
+}
+
+.goBack {
+    padding-bottom: 1rem;
+}
+
+.pageName {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.statement {
+    padding-bottom: 0.5rem;
+}

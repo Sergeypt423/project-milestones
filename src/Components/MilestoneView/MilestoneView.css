@@ -1,0 +1,32 @@
+.milestoneView {
+    width: 100vw;
+    height: 100vh;
+    background-color: #DCDADA;
+}
+
+.goBack:hover {
+    cursor: pointer;
+}
+
+.goBack {
+    padding-bottom: 1rem;
+}
+
+.pageName {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.infoBox {
+    padding-bottom: 1rem;
+}
+
+.subTitle {
+    font-weight: bold;
+    padding-bottom: 0.1rem;
+}
+
+.reqs {
+    padding-left: 1rem;
+}
